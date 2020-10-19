@@ -1,0 +1,27 @@
+<h1>Student Details</h1>
+<div *ngFor="let users of user; let i = index">
+  <label>First Name</label>
+  <br />
+  <span>{{ users.firstName }}</span
+  ><br />
+  <label>Last Name</label>
+  <br />
+  <span>{{ users.lastName }}</span
+  ><br />
+  <label>User Name</label>
+  <br />
+  <span>{{ users.userName }}</span
+  ><br />
+  <label>Password</label>
+  <br />
+  <span>{{ users.password }}</span
+  ><br />
+  <label>Email</label>
+  <br />
+  <span>{{ users.email }}</span
+  ><br />
+  <label>Mobile</label>
+  <br />
+  <span>{{ users.mobile }}</span>
+  <br />
+</div>
